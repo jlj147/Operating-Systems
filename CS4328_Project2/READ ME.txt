@@ -1,0 +1,5 @@
+This program must be ran on a Mac or Linux terminal as P Threads and the POSIX library are not native to windows. To run on linux go the projects directory and type the following 
+
+g++ -pthread -std=c++11 main.cpp
+
+If the program were to deadlock run again. It runs clean 80% of the time
